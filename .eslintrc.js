@@ -10,5 +10,8 @@ module.exports = {
     parser: 'babel-eslint'
   },
   extends: [ 'eslint:recommended', 'airbnb'],
-  plugins: ["jest"]
+  plugins: ['jest'],
+  settings: {
+    'import/resolver': 'webpack'
+  },
 }

@@ -1,3 +1,5 @@
+import index from '@';
+
 describe('Your tests should go here', () => {
-  expect(true).toBe(true);
+  expect(index.init()).toBe('Success');
 });
