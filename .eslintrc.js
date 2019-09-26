@@ -12,6 +12,11 @@ module.exports = {
   extends: [ 'eslint:recommended', 'airbnb'],
   plugins: ['jest'],
   settings: {
-    'import/resolver': 'webpack'
+    node: {},
+    alias: {
+      map: [
+        ['@', './lib']
+      ]
+    }
   },
 }
