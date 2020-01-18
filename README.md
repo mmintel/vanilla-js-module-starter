@@ -1,4 +1,7 @@
 # Vanilla JS Module Starter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mmintel/vanilla-js-module-starter.svg)](https://greenkeeper.io/)
+
 This just creates a super minimal JS file that is importable as a module.
 
 * adds very basic webpack config to compile and minify modern js code
